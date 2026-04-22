@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+      "atlassian": {
+        "command": "npx",
+        "args": ["-y", "mcp-remote", "https://mcp.atlassian.com/v1/mcp"]
+      },
+      "snyk": {
+        "command": "npx",
+        "args": ["-y", "snyk@latest", "mcp", "-t", "stdio"]
+      }
+    }
+  }
