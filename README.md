@@ -6,7 +6,7 @@
 3. Configure Atlassian Tool of your choice - MCP Server, TWG CLI or ACLI Jira
 4. Configure Snyk MCP Server. Check mcp.json for an example
 5. Clone repository you want to make changes to locally inside your ADE
-6. Install [Snyk Studio Recipes](https://github.com/snyk/studio-recipes) from [Vercel skills.sh](https://skills.sh/snyk/studio-recipes/snyk-fix) or [Tessl registry](https://tessl.io/registry/skills/github/snyk/studio-recipes/snyk-fix)
+6. Install [Snyk Studio Recipes](https://github.com/snyk/studio-recipes) from [Vercel skills.sh](https://skills.sh/snyk/studio-recipes) or [Tessl registry](https://tessl.io/registry/skills/github/snyk/studio-recipes)
 ```
 npx skills add snyk/studio-recipes
 ```
