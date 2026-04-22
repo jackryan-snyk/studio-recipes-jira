@@ -1,11 +1,11 @@
 # Demo
 
 ## Pre-Reqs
-1. Install [Snyk Security in Jira Cloud](https://marketplace.atlassian.com/apps/1230482/snyk-security-in-jira-cloud?hosting=cloud&tab=overview) and [create tickets](https://docs.snyk.io/integrations/jira-and-slack-integrations/snyk-security-in-jira-cloud-integration#automate-ticket-creation-in-jira) for the Snyk security vulnerabilities
+1. Install [Snyk Security in Jira Cloud](https://marketplace.atlassian.com/apps/1230482/snyk-security-in-jira-cloud?hosting=cloud&tab=overview) and [create tickets](https://docs.snyk.io/integrations/jira-and-slack-integrations/snyk-security-in-jira-cloud-integration#automate-ticket-creation-in-jira) for the Snyk security vulnerabilities.
 2. Pick ADE of your choice - Cursor, Claude, etc...
-3. Configure Atlassian Tool of your choice - MCP Server, TWG CLI or ACLI Jira
-4. Configure Snyk MCP Server. Check mcp.json for an example
-5. Clone repository you want to make changes to locally inside your ADE
+3. Configure Atlassian Tool of your choice - MCP Server, TWG CLI or ACLI Jira.
+4. Configure Snyk MCP Server. Check mcp.json for an example.
+5. Pick a repo that contains vulnerabilities. Clone that repo locally.
 6. Install [Snyk Studio Recipes](https://github.com/snyk/studio-recipes) from [Vercel skills.sh](https://skills.sh/snyk/studio-recipes) or [Tessl registry](https://tessl.io/registry/skills/github/snyk/studio-recipes)
 ```
 npx skills add snyk/studio-recipes
@@ -14,10 +14,10 @@ or
 ```
 npx tessl i github:snyk/studio-recipes 
 ```
-7. Copy custom ./jira-snyk-remediation/SKILL.md into project
+7. Copy [jira-snyk-remediation/SKILL.md](https://github.com/jackryan-snyk/studio-recipes-jira/blob/main/jira-snyk-remediation/SKILL.md) into project
 
 ## Workflow
-1. Run the Jira-Snyk skill: use slash command and provide the Jira ticket
+1. Run the jira-snyk-remediation skill: use slash command and provide the Jira ticket.
 
 Example:
 ```
