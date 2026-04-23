@@ -12,8 +12,8 @@ This is not an officially supported Snyk tool and is not directly endorsed by Sn
 ### Pre-Reqs
 1. Install [Snyk Security in Jira Cloud](https://marketplace.atlassian.com/apps/1230482/snyk-security-in-jira-cloud?hosting=cloud&tab=overview) and [create tickets](https://docs.snyk.io/integrations/jira-and-slack-integrations/snyk-security-in-jira-cloud-integration#automate-ticket-creation-in-jira) for the Snyk security vulnerabilities.
 2. Pick ADE of your choice - Cursor, Claude, etc...
-3. Configure Atlassian Tool of your choice - MCP Server, TWG CLI or ACLI Jira.
-4. Configure Snyk MCP Server. Check mcp.json for an example.
+3. Configure the Atlassian Tool of your choice - MCP Server, TWG CLI or ACLI Jira.
+4. Configure the Snyk MCP Server. Check mcp.json for an example.
 5. Pick a repo that contains vulnerabilities. Clone that repo locally.
 6. Install [Snyk Studio Recipes](https://github.com/snyk/studio-recipes) from [Vercel skills.sh](https://skills.sh/snyk/studio-recipes) or [Tessl registry](https://tessl.io/registry/skills/github/snyk/studio-recipes)
 ```
