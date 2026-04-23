@@ -1,6 +1,15 @@
-# Demo
+# Studio Recipes Jira
+---
 
-## Pre-Reqs
+## Disclaimer
+This is not an officially supported Snyk tool and is not directly endorsed by Snyk
+
+---
+
+
+## Demo
+
+### Pre-Reqs
 1. Install [Snyk Security in Jira Cloud](https://marketplace.atlassian.com/apps/1230482/snyk-security-in-jira-cloud?hosting=cloud&tab=overview) and [create tickets](https://docs.snyk.io/integrations/jira-and-slack-integrations/snyk-security-in-jira-cloud-integration#automate-ticket-creation-in-jira) for the Snyk security vulnerabilities.
 2. Pick ADE of your choice - Cursor, Claude, etc...
 3. Configure Atlassian Tool of your choice - MCP Server, TWG CLI or ACLI Jira.
@@ -16,7 +25,7 @@ npx tessl i github:snyk/studio-recipes
 ```
 7. Copy [jira-snyk-remediation/SKILL.md](https://github.com/jackryan-snyk/studio-recipes-jira/blob/main/jira-snyk-remediation/SKILL.md) into project
 
-## Workflow
+### Workflow
 1. Run the jira-snyk-remediation skill: use slash command and provide the Jira ticket.
 
 Example:
@@ -34,6 +43,7 @@ Additional Notes:
 ## TWG CLI
 ```
 twg jira workitem get NGP-610
+twg skills install
 ```
 
 ## ACLI 
