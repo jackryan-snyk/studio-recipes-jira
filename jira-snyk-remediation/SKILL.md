@@ -6,7 +6,6 @@ compatibility: |
   Requires Atlassian account, MCP server, TWG CLI or ACLI. 
   Requires Snyk MCP server connection and authenticated Snyk account.
   GitHub CLI (gh) required for PR creation. Git repository required.
-  Supports SAST for 20+ languages and SCA for all major package managers.
 metadata:
   author: Jack Ryan
   version: 1.0.0
