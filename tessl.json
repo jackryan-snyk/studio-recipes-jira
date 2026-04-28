@@ -1,0 +1,10 @@
+{
+  "name": "studio-recipes-jira",
+  "mode": "vendored",
+  "dependencies": {
+    "snyk/studio-recipes": {
+      "version": "adb5a9a9afb1699353e2fa3bffa364518ae95371",
+      "source": "https://github.com/snyk/studio-recipes"
+    }
+  }
+}
